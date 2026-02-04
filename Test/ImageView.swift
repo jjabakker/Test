@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ImageView: View {
     var body: some View {
         Image("IMG_7716")
             .resizable()
@@ -36,5 +36,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ImageView()
 }
