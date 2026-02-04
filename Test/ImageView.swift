@@ -14,6 +14,7 @@ struct ContentView: View {
             .aspectRatio(contentMode: .fill)
         
         
+        
         /*
         VStack {
             Image(systemName: "globe")
