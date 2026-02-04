@@ -20,6 +20,10 @@ struct TestApp: App {
                     .tabItem {
                         Label("Settings", systemImage: "gearshape")
                     }
+                ContentView()
+                    .tabItem {
+                        Label("Settings", systemImage: "gearshape")
+                    }
             }
         }
     }
