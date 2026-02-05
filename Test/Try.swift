@@ -22,7 +22,7 @@ struct ContentView: View {
                 ForEach(colors, id: \.self) { draggable in
                     Circle()
                         .fill(draggable.color)
-                        .frame(width: 60, height: 60)
+                        .frame(width: 30, height: 30)
                         .contentShape(Circle())          // ← ADD THIS
                         .draggable(draggable) {          // ← CHANGE THIS
                             Circle()
